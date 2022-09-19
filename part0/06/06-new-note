@@ -1,0 +1,5 @@
+title 06
+
+User->Browser: Submits input text: "Test"
+Browser->Server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa, payload:{content: "Test", date: "2022-09-19T12:28:12.867Z"}
+Server->Browser: {"message":"note created"}
